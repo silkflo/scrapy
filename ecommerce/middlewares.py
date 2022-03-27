@@ -107,5 +107,5 @@ from w3lib.http import basic_auth_header
 class CustomProxyMiddleware(object):
     def process_request(self, request, spider):
         request.meta["proxy"] = "209.205.216.221:9000"
-        request.headers["Proxy-Authorization"] = basic_auth_header("silkflo", "ae0c10-c8679d-198a0b-c1fdf2-bca74b") 
+        request.headers["Proxy-Authorization"] = basic_auth_header("silkflo", "xxxxxx-xxxxxx-xxxxxx-xxxxxx") 
 
